@@ -24,6 +24,7 @@ const Hero = () => {
           >
             {/* Replace with actual image */}
             <div className="text-5xl">👩🏽‍💼</div>
+            
           </motion.div>
 
           {/* Name */}

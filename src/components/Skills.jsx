@@ -20,6 +20,7 @@ import {
 } from 'react-icons/si'
 import { FaAws } from "react-icons/fa";
 import { FiAward } from 'react-icons/fi'
+import { MdArticle } from 'react-icons/md';
 
 const Skills = () => {
   const ref = useRef(null)
@@ -52,12 +53,14 @@ const Skills = () => {
       ]
     },
     {
-      type: 'Certifications',
+      type: 'Certifications & Publications',
       skills: [
         { name: 'Machine Learning Specialist', icon: FaAws, color: 'hover:bg-orange-500' },
-        { name: 'Deep Learning Specialization', icon: SiCoursera, color: 'hover:bg-blue-500' }
+        { name: 'Deep Learning Specialization', icon: SiCoursera, color: 'hover:bg-blue-500' },
+        { name: 'Landing an AI Role', icon: MdArticle, color: 'hover:bg-blue-500' }, //https://www.businessinsider.com/gen-z-data-scientist-personal-ai-project-important-land-job-2024-7
+        { name: 'Measurement and ML-Based Prediction of ...', icon: MdArticle, color: 'hover:bg-blue-500' } //https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF
       ]
-    },
+    }
     
   ]
 

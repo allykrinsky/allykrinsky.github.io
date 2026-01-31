@@ -34,7 +34,26 @@ const Projects = () => {
       demoLink: "#",
       repoLink: "https://github.com/allykrinsky/budget-app",
       status: "Live"
+    },
+    {
+      title: "Gen Z data scientist says many majors in the field are interchangeable — so this is what to do if you want an AI job",
+      description: "July 17, 2024",
+      category: "Press",
+      image: "/images/article.png",
+      demoLink: "https://lnkd.in/gPgaBjDE",
+      // repoLink: "https://lnkd.in/gPgaBjDE",
+      status: "Published"
+    },
+    {
+      title: "High-Throughput Measurement and Machine Learning-Based Prediction of Collision Cross Sections for Drugs and Drug Metabolites",
+      description: "May 11, 2022",
+      category: "Research",
+      image: "/images/ccs.png",
+      demoLink: "https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF",
+      // repoLink: "https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF",
+      status: "Published"
     }
+
   ]
 
   return (
