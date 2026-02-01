@@ -22,18 +22,18 @@ const Projects = () => {
       description: "A Streamlit-based meal planner that reduces food waste and simplifies shopping by recommending recipes based on shared ingredients.",
       category: "Recommendations",
       image: "/images/meals.jpg",
-      // demoLink: "https://allykrinsky-graph-grocery-list-app-olpzxa.streamlit.app/",
+      demoLink: "https://allykrinsky-graph-grocery-list-app-olpzxa.streamlit.app/",
       repoLink: "https://github.com/allykrinsky/meal-planner",
-      status: "Inactive"
+      status: "Live"
     },
     {
-      title: "Personal Budget Tracker",
-      description: "A full-stack budgeting solution featuring a high-performance FastAPI backend and a responsive React UI for seamless monthly expense management.",
-      category: "Full-Stack",
-      image: "/images/budget.png",
-      // demoLink: "#",
-      repoLink: "https://github.com/allykrinsky/budget-app",
-      status: "Inactive"
+      title: "PyDy Tuesday",
+      description: "data analysis project for the Posit Coding Challenge, leveraging Quarto to transform complex datasets into an interactive, insight-driven technical report",
+      category: "Data Analysis",
+      image: "/images/pydy.png",
+      demoLink: "https://lnkd.in/gPgaBjDE",
+      repoLink: "https://github.com/allykrinsky/pydy-tuesday",
+      status: "Live"
     },
     {
       title: "Gen Z data scientist says many majors in the field are interchangeable — so this is what to do if you want an AI job",
@@ -52,8 +52,16 @@ const Projects = () => {
       demoLink: "https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF",
       // repoLink: "https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF",
       status: "Published"
+    },
+    {
+      title: "Personal Budget Tracker",
+      description: "A full-stack budgeting solution featuring a high-performance FastAPI backend and a responsive React UI for seamless monthly expense management.",
+      category: "Full-Stack",
+      image: "/images/budget.png",
+      // demoLink: "#",
+      repoLink: "https://github.com/allykrinsky/budget-app",
+      status: "Inactive"
     }
-
   ]
 
   return (
