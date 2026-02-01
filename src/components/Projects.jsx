@@ -23,7 +23,7 @@ const Projects = () => {
       category: "Recommendations",
       image: "/images/meals.jpg",
       demoLink: "https://allykrinsky-graph-grocery-list-app-olpzxa.streamlit.app/",
-      repoLink: "https://github.com/allykrinsky/meal-planner",
+      repoLink: "https://github.com/allykrinsky/graph-grocery-list",
       status: "Live"
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
       description: "data analysis project for the Posit Coding Challenge, leveraging Quarto to transform complex datasets into an interactive, insight-driven technical report",
       category: "Data Analysis",
       image: "/images/pydy.png",
-      demoLink: "https://lnkd.in/gPgaBjDE",
+      demoLink: "https://connect.posit.cloud/allykrinsky/content/01955825-2bcc-db88-fe88-d05e58553fcd",
       repoLink: "https://github.com/allykrinsky/pydy-tuesday",
       status: "Live"
     },
