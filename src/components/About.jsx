@@ -32,7 +32,7 @@ const About = () => {
             </p>
 
             <p>
-              I share what it's really like navigating AI/tech as a young woman—staying technical as
+              I share what it's really like navigating AI/tech as a young woman, staying technical as
               a PM, building routines that actually work, and designing a life with intention.
             </p>
 
@@ -67,7 +67,7 @@ const About = () => {
                 Productivity
               </h3>
               <p className="text-sm text-soft-black leading-relaxed">
-                Strategic goal-setting, learning frameworks, and staying sharp in a fast-moving industry
+                Strategic goal setting, learning frameworks, and staying sharp in a fast-moving industry
               </p>
             </motion.div>
 
@@ -81,7 +81,7 @@ const About = () => {
                 Balance
               </h3>
               <p className="text-sm text-soft-black leading-relaxed">
-                Work-life integration, building sustainable routines, and avoiding burnout
+                Work life integration, building sustainable routines, and avoiding burnout
               </p>
             </motion.div>
 

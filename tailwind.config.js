@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'warm-black': '#0a0a0a',
-        'soft-black': '#404040',
-        'light-gray': '#f8f8f8',
-        'medium-gray': '#e0e0e0',
-        'accent': '#2563eb',
-        'accent-dark': '#1e40af',
+        'warm-black': '#2c1810',
+        'soft-black': '#5c4a42',
+        'light-gray': '#faf8f5',
+        'medium-gray': '#e8e3db',
+        'accent': '#f97316',
+        'accent-dark': '#ea580c',
       },
       fontFamily: {
-        'display': ['Cormorant Garamond', 'Georgia', 'serif'],
+        'display': ['Work Sans', 'system-ui', 'sans-serif'],
         'body': ['Work Sans', 'system-ui', 'sans-serif'],
       },
       fontSize: {

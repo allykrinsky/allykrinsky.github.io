@@ -23,8 +23,12 @@ const Hero = () => {
             className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-accent/10 to-accent/5 flex items-center justify-center overflow-hidden border border-medium-gray/30"
           >
             {/* Replace with actual image */}
-            <div className="text-5xl">👩🏽‍💼</div>
-            
+            {/* <div className="text-5xl">👩🏽‍💼</div> */}
+            <img
+                src="images/headshot.jpeg"
+                alt="headshot"
+                className="w-full h-full object-cover"
+              />
           </motion.div>
 
           {/* Name */}

@@ -53,12 +53,12 @@ const Skills = () => {
       ]
     },
     {
-      type: 'Certifications & Publications',
+      type: 'Certifications',
       skills: [
         { name: 'Machine Learning Specialist', icon: FaAws, color: 'hover:bg-orange-500' },
         { name: 'Deep Learning Specialization', icon: SiCoursera, color: 'hover:bg-blue-500' },
-        { name: 'Landing an AI Role', icon: MdArticle, color: 'hover:bg-blue-500' }, //https://www.businessinsider.com/gen-z-data-scientist-personal-ai-project-important-land-job-2024-7
-        { name: 'Measurement and ML-Based Prediction of ...', icon: MdArticle, color: 'hover:bg-blue-500' } //https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF
+        // { name: 'Landing an AI Role', icon: MdArticle, color: 'hover:bg-blue-500' }, //https://www.businessinsider.com/gen-z-data-scientist-personal-ai-project-important-land-job-2024-7
+        // { name: 'Measurement and ML-Based Prediction of ...', icon: MdArticle, color: 'hover:bg-blue-500' } //https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF
       ]
     }
     
@@ -88,7 +88,7 @@ const Skills = () => {
                 <h3 className="text-sm font-semibold text-warm-black uppercase tracking-wider mb-3 text-center">
                   {category.type}
                 </h3>
-                <div className="flex flex-wrap gap-2 justify-center max-w-xl mx-auto">
+                <div className="flex flex-wrap gap-3 justify-center max-w-3xl mx-auto">
                   {category.skills.map((skill, index) => {
                     const Icon = skill.icon
                     return (
@@ -97,10 +97,10 @@ const Skills = () => {
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
                         transition={{ duration: 0.4, delay: categoryIndex * 0.15 + index * 0.05 }}
-                        className={`group px-3 py-2 border-2 border-medium-gray rounded-full flex items-center gap-2 ${skill.color} hover:text-white hover:border-transparent transition-all duration-300 transform hover:scale-105 cursor-default`}
+                        className={`group px-4 py-2.5 border-2 border-medium-gray rounded-full flex items-center gap-2 ${skill.color} hover:text-white hover:border-transparent transition-all duration-300 transform hover:scale-105 cursor-default`}
                       >
-                        <Icon size={16} />
-                        <span className="text-xs font-medium">{skill.name}</span>
+                        <Icon size={18} />
+                        <span className="text-sm font-medium">{skill.name}</span>
                       </motion.div>
                     )
                   })}

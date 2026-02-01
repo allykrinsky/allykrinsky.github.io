@@ -9,35 +9,35 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Graph Analytics Platform",
-      description: "TBD",
-      category: "Data Visualization",
-      image: "/images/graph-analytics.jpg", // Add your image to public/images/
-      demoLink: "#",
+      title: "Graph Analytics",
+      description: "Leveraging Neo4j Graph Data Science to implement centrality measures and pathfinding algorithms for complex network optimization",
+      category: "Analytics",
+      image: "/images/blast-radius.png", // Add your image to public/images/
+      // demoLink: "#",
       repoLink: "https://github.com/allykrinsky/graph-analytics",
-      status: "In Progress"
+      status: "Building"
     },
     {
-      title: "Grocery Recommendations & Meal Planner",
-      description: "TBD",
-      category: "Full-Stack ML",
-      image: "/images/meal-planner.jpg",
-      demoLink: "#",
+      title: "Meal Planner & Recipe Recommender",
+      description: "A Streamlit-based meal planner that reduces food waste and simplifies shopping by recommending recipes based on shared ingredients.",
+      category: "Recommendations",
+      image: "/images/meals.jpg",
+      // demoLink: "https://allykrinsky-graph-grocery-list-app-olpzxa.streamlit.app/",
       repoLink: "https://github.com/allykrinsky/meal-planner",
-      status: "Live"
+      status: "Inactive"
     },
     {
       title: "Personal Budget Tracker",
-      description: "TBD",
+      description: "A full-stack budgeting solution featuring a high-performance FastAPI backend and a responsive React UI for seamless monthly expense management.",
       category: "Full-Stack",
-      image: "/images/budget-app.jpg",
-      demoLink: "#",
+      image: "/images/budget.png",
+      // demoLink: "#",
       repoLink: "https://github.com/allykrinsky/budget-app",
-      status: "Live"
+      status: "Inactive"
     },
     {
       title: "Gen Z data scientist says many majors in the field are interchangeable — so this is what to do if you want an AI job",
-      description: "July 17, 2024",
+      description: "Featured expert in Business Insider: Interviewed on strategic pathways for ambitious students to secure AI roles and the high-value experiences that define a modern tech career.",
       category: "Press",
       image: "/images/article.png",
       demoLink: "https://lnkd.in/gPgaBjDE",
@@ -46,7 +46,7 @@ const Projects = () => {
     },
     {
       title: "High-Throughput Measurement and Machine Learning-Based Prediction of Collision Cross Sections for Drugs and Drug Metabolites",
-      description: "May 11, 2022",
+      description: "Co-authored research published in the Journal of Mass Spectrometry on developing machine learning models to predict chemical compound structures at the University of Washington.",
       category: "Research",
       image: "/images/ccs.png",
       demoLink: "https://pubs.acs.org/doi/pdf/10.1021/jasms.2c00111?ref=article_openPDF",
@@ -57,7 +57,7 @@ const Projects = () => {
   ]
 
   return (
-    <section id="projects" ref={ref} className="py-24 bg-white">
+    <section id="projects" ref={ref} className="py-24 bg-light-gray">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -65,7 +65,7 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-semibold text-warm-black mb-12 tracking-tight">
-            Projects
+            Projects & Publications
           </h2>
 
           {/* Horizontal scroll container */}
@@ -79,18 +79,18 @@ const Projects = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="group w-80 md:w-auto flex-shrink-0"
                 >
-                  <div className="border border-medium-gray/30 rounded-lg overflow-hidden hover:border-warm-black transition-all duration-300 h-full flex flex-col">
+                  <div className="bg-white border border-medium-gray/30 rounded-lg overflow-hidden hover:border-warm-black transition-all duration-300 h-full flex flex-col">
                     {/* Project Image */}
-                    <div className="aspect-video bg-light-gray relative overflow-hidden">
-                      <div className="absolute inset-0 flex items-center justify-center text-3xl">
+                    <div className="aspect-video bg-gradient-to-br from-accent/5 to-accent/10 relative overflow-hidden">
+                      {/* <div className="absolute inset-0 flex items-center justify-center text-3xl">
                         📊
-                      </div>
-                      {/* Replace emoji with actual image when available:
+                      </div> */}
+                      {/* Replace emoji with actual image when available: */}
                       <img
                         src={project.image}
                         alt={project.title}
                         className="w-full h-full object-cover"
-                      /> */}
+                      />
                       {project.status && (
                         <div className="absolute top-2 right-2">
                           <span className="px-2 py-0.5 bg-white/90 backdrop-blur-sm rounded-full text-xs font-medium text-warm-black">
