@@ -27,8 +27,8 @@ const Projects = () => {
       status: "Live"
     },
     {
-      title: "PyDy Tuesday",
-      description: "data analysis project for the Posit Coding Challenge, leveraging Quarto to transform complex datasets into an interactive, insight-driven technical report",
+      title: "Animal Shelter Insights",
+      description: "Data analysis project for the Posit PyDy Tuesday Challenge, leveraging Quarto to transform complex datasets into an interactive, insight-driven technical report",
       category: "Data Analysis",
       image: "/images/pydy.png",
       demoLink: "https://connect.posit.cloud/allykrinsky/content/01955825-2bcc-db88-fe88-d05e58553fcd",
