@@ -14,7 +14,7 @@ const Projects = () => {
       category: "Analytics",
       image: "/images/blast-radius.png", // Add your image to public/images/
       // demoLink: "#",
-      repoLink: "https://github.com/allykrinsky/graph-analytics",
+      repoLink: "https://github.com/allykrinsky/lineage-poc/",
       status: "Building"
     },
     {
